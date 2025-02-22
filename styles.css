@@ -1,0 +1,222 @@
+
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1, h2 {
+    color: #343a40;
+}
+
+.nav .button {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+.form .form-group {
+    margin-bottom: 15px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ced4da;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f8;
+}
+
+/* Dashboard Layout */
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    background-color: #007bff;
+    color: #fff;
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 20px;
+    
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    margin: 15px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.menu a:hover,
+.menu .logout {
+    background-color: #0056b3;
+}
+
+/* Main Content Styling */
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #343a40;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #6c757d;
+    font-size: 16px;
+}
+
+/* Overview Cards */
+.overview {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 1 1 calc(25% - 20px);
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.card p {
+    font-size: 24px;
+    color: #343a40;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .overview {
+        flex-direction: column;
+    }
+
+    .card {
+        flex: 1 1 100%;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+.sidebar .nav-link {
+    font-size: 16px;
+    padding: 10px 15px;
+    margin: 5px 0;
+    transition: background 0.3s ease;
+}
+
+.sidebar .nav-link:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar .nav-link i {
+    margin-right: 8px;
+}
+
+
+
+.card .card-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card .card-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
