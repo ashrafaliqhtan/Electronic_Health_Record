@@ -106,69 +106,25 @@ Outlines processes such as patient check-in, prescription processing, and billin
 
 The Electronic Health Record (EHR) Management System streamlines hospital operations and enhances the quality of patient care. By integrating Reception, Billing, Pharmacy, and Patient Interaction modules, it provides a holistic solution for healthcare institutions. The system ensures the security of sensitive patient data and compliance with healthcare regulations.
 
+# ScreenShots
 
-# Electronic Health Record (HER) Management System for Hospitals
-
-## Introduction
-... (content you provided)
-
-## 1. Methodology
-... (content you provided)
-
-## 2. Requirements
-... (content you provided)
-
-## 3. Architecture Design
-
-### 3.1 Activity Diagram
-![Activity Diagram for HER System](images/activity_diagram.png)
-
-### 3.2 Use Case Diagram
-![Use Case Diagram for HER System](images/use_case_diagram.png)
-
-### 3.3 Sequence Diagram
-#### 1. Patient Check-In Process (Receptionist)
-![Sequence Diagram for Check-In](images/sequence_diagram_checkin.png)
-
-#### 2. Pharmacy Order Processing (Pharmacist)
-![Sequence Diagram for Pharmacy Order](images/sequence_diagram_pharmacy.png)
-
-#### 3. Billing and Payment Processing (Cashier)
-![Sequence Diagram for Billing](images/sequence_diagram_billing.png)
-
-## 4. Models
-... (content you provided)
-
-## 5. Interfaces
-### Reception Interface
-![Reception Interface](images/reception_interface.png)
-
-### Pharmacy Dashboard
-![Pharmacy Dashboard](images/pharmacy_dashboard.png)
-
-### Add New Medication Interface
-![Add New Medication Interface](images/add_new_medication.png)
-
-### Manage Prescriptions Interface
-![Manage Prescriptions Interface](images/manage_prescriptions.png)
-
-### Manage Appointments Interface
-![Manage Appointments Interface](images/manage_appointments.png)
-
-### Patient List Interface
-![Patient List Interface](images/patient_list.png)
-
-### Search Pattern Interface
-![Search Pattern Interface](images/search_pattern.png)
-
-### Login Interface
-![Login Interface](images/login_interface.png)
-
-### Register Interface
-![Register Interface](images/register_interface.png)
-
-### Billing Interface
-![Billing Interface](images/billing_interface.png)
-
-## 6. Conclusion
-... (content you provided)
+<p align="center">
+  <img src="images/A1.jpeg" width="200">
+  <img src="images/A2.jpeg" width="200">
+  <img src="images/A3.jpeg" width="200">
+  <img src="images/A4.jpeg" width="200">
+  <img src="images/A5.jpeg" width="200">
+  <img src="images/A6.jpeg" width="200">
+  <img src="images/A7.jpeg" width="200">
+  <img src="images/A8.jpeg" width="200">
+  <img src="images/A9.jpeg" width="200">
+  <img src="images/A10.jpeg" width="200">
+  <img src="images/A11.jpeg" width="200">
+  <img src="images/A12.png" width="200">
+  <img src="images/A13.png" width="200">
+  <img src="images/A14.png" width="200">
+  <img src="images/A15.png" width="200">
+  <img src="images/A16.png" width="200">
+  <img src="images/A17.jpeg" width="200">
+  <img src="images/A18.jpeg" width="200">
+</p>
